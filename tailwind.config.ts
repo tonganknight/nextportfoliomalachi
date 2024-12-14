@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      "RussoOne-Regular": ["RussoOne-Regular"],
+    },
     extend: {
       keyframes: {
           "pop-blob": {
@@ -15,18 +18,19 @@ const config: Config = {
           "66%": { transform: "scale(0.8)" },
           "100%": { transform: "scale(1)" },
         },
-        colors: {
-          filter: {
-         "blur-20": "blur(20px)",
-         "blur-25": "blur(25px)",
-          },
+      },
+      colors: {
+        filter: {
+          "blur-20": "blur(20px)",
+          "blur-25": "blur(25px)",
         },
+        foreground: "hsl(var(--foreground))",
       },
       animation: {
         "pop-blob": "pop-blob 5s infinite",
       }
-   },
-},
+    },
+  },
   plugins: [require("tailwindcss-animate")],
 };
 export default config;

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb:88, 28, 135,;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -30,4 +30,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+@font-face {
+  font-family: RussoOne-Regular;
+  src: url(../../public/Fonts/Russo_One/RussoOne-Regular.ttf);
 }

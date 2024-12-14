@@ -9,11 +9,7 @@ interface NavigationMenuProps {
 
 export const NavigationMenu = (props: NavigationMenuProps) => {
   const isMoble = useMobileScreen();
-  const [onMouseOver, setMouseOver] = useState(false);
 
-  const handleMouseOver = () => {
-    setMouseOver((prev) => !prev);
-  };
   return (
     <>
       {isMoble ? (

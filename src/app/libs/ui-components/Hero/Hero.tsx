@@ -3,7 +3,7 @@ import { HeroTitle } from "./HeroTitle";
 
 export const Hero = () => {
   return (
-    <div className="flex justify-center items-center h-screen w-screen mt-48">
+    <div className="flex justify-center items-center h-screen w-screen mt-[14rem]">
       <div className="static">
         <BlurryBlob
           className="rounded-xl opacity-45"

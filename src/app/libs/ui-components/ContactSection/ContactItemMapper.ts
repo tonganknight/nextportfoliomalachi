@@ -11,12 +11,12 @@ export const ContentItemMapper = (ContactItemsProps:ContactItemsProps ) => {
           icon: ContactItemsProps.emailIconSrc
         },
         {
-          info: ContactItemsProps.linkedIn,
-          icon: ContactItemsProps.linkedInIconSrc,
-        },
-        {
           info: ContactItemsProps.github,
           icon: ContactItemsProps.githubIconSrc,
+        },
+        {
+          info: ContactItemsProps.linkedIn,
+          icon: ContactItemsProps.linkedInIconSrc,
         },
       ];
     

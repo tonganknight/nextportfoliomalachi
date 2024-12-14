@@ -8,19 +8,19 @@ export const ContectSection = () => {
       </div>
       <ContactItems
         phoneIconSrc={
-          "https://cdn.iconfinder.com/stored_data/2032643/128/png?token=1734150283-GoFNcSlhJzYL9uGiYbYp%2F66vSwY5WhezLBWOnXgJUj4%3D"
+          "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D"
         }
         phoneNumber={"435-772-5277"}
         emailIconSrc={
-          "https://cdn.iconfinder.com/stored_data/2032650/128/png?token=1734150328-4OFTaWrdDbOHO%2FNpft%2BJBECeaDWE3se0EV0pjduzSaY%3D"
+          "https://cdn.iconfinder.com/stored_data/2033256/128/png?token=1734196773-96xEqH3xiKb3%2B2c3KvKXZyKo2rf9E2FPrwaNCbdPIKI%3D"
         }
         email={"malachialusa@gmail.com"}
         linkedInIconSrc={
-          "https://cdn.iconfinder.com/stored_data/2032651/128/png?token=1734150368-ULNuuQgd1xH7B3khzmNrUSSg8pvV8H60wKt60qRBujc%3D"
+          "https://cdn.iconfinder.com/stored_data/2033257/128/png?token=1734196838-V3F95U87KitnZhmJFmHMUUsFdAaeQAfetzqlG4fcqfA%3D"
         }
         linkedIn={"https://www.linkedin.com/in/malachi-alusa-a96439174/"}
         githubIconSrc={
-          "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_six_color-1024.png"
+          "https://cdn.iconfinder.com/stored_data/2033260/128/png?token=1734197252-PXZubYcV%2BBCEt8gv99nb2dVjSluerugEgHo5QhQl6K0%3D"
         }
         github={"https://github.com/tonganknight"}
       />

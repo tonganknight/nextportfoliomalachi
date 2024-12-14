@@ -1,6 +1,4 @@
 "use client";
-
-import { useState } from "react";
 import useMobileScreen from "../../helpers/useMobileScreen";
 
 interface NavigationMenuProps {
@@ -13,12 +11,14 @@ export const NavigationMenu = (props: NavigationMenuProps) => {
   return (
     <>
       {isMoble ? (
-        <div className="flex justify-center p-3 position: sticky;">
+        <p className="flex justify-center p-3 position: sticky font-RussoOne-Regular">
           Malachi Alusa
-        </div>
+        </p>
       ) : (
         <nav>
-          <ul className={"flex flex-row justify-evenly p-4"}>
+          <ul
+            className={"flex flex-row justify-evenly p-4 font-RussoOne-Regular"}
+          >
             {props.anchors.map((anchor) => (
               <li key={anchor}>
                 <a

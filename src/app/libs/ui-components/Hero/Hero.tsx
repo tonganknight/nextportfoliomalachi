@@ -1,21 +1,17 @@
 "use client";
-import BlurryBlob from "@/app/components/animate/background/blurry-blob";
 import { HeroTitle } from "./HeroTitle";
-import { cn } from "../../utils";
 import useMobileScreen from "../../helpers/useMobileScreen";
+import { BackGroundBlur } from "./BackGroundBlur";
 
 export const Hero = () => {
   const isMobile = useMobileScreen();
 
   return (
-    <div className="flex justify-center items-center h-screen w-screen mt-[14rem]">
-      <div className={cn("static", isMobile && "pt-[189px]")}>
-        <BlurryBlob
-          className="rounded-xl opacity-45"
-          firstBlobColor=" bg-purple-900"
-          secondBlobColor="bg-purple-600"
-        />
-      </div>
+    <div
+      id="Home"
+      className="flex justify-center items-center h-screen w-screen mt-[14rem]"
+    >
+      <BackGroundBlur isMobile={isMobile} />
       <HeroTitle />
     </div>
   );

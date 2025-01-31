@@ -9,15 +9,17 @@ export const NavigationMenu = (props: NavigationMenuProps) => {
   const isMoble = useMobileScreen();
 
   return (
-    <>
+    <div className="sticky top-0 z-50">
       {isMoble ? (
-        <p className="flex justify-center p-3 position: sticky font-RussoOne-Regular">
-          Malachi Alusa
+        <p className="flex justify-center p-3 font-RussoOne-Regular">
+          Malachi Alusa-
         </p>
       ) : (
         <nav>
           <ul
-            className={"flex flex-row justify-evenly p-4 font-RussoOne-Regular"}
+            className={
+              "flex flex-row justify-evenly p-4 font-RussoOne-Regular bg-black z-50"
+            }
           >
             {props.anchors.map((anchor) => (
               <li key={anchor}>
@@ -32,6 +34,6 @@ export const NavigationMenu = (props: NavigationMenuProps) => {
           </ul>
         </nav>
       )}
-    </>
+    </div>
   );
 };

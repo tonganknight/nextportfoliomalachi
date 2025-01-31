@@ -1,0 +1,1 @@
+ export const Anchors = ["Home", "About Me", "Skills", "Expirence", "Resume"];

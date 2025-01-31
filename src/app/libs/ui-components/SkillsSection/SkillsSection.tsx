@@ -3,13 +3,12 @@ import { ReactSection } from "./React/ReactSection";
 import { TailWindSection } from "./Tailwind/TailwindSection";
 import { ProficienciesSection } from "./ProficenciesSection/ProficienciesSection";
 import { SkillsSectionData } from "../../types";
+import { SkillsTitle } from "./SkillsTitle";
 
 export const SkillsSection = ({ data }: { data: SkillsSectionData }) => {
   return (
     <div id="Skills" className="flex flex-col items-center mt-[10%]">
-      <p className="text-6xl font-RussoOne-Regular p-[10px] mb-[25px]">
-        Skills
-      </p>
+      <SkillsTitle title={data.SkillsTitle} />
       <ReactSection
         title={data.reactTitle}
         description={data.reactDescription}
@@ -25,6 +24,7 @@ export const SkillsSection = ({ data }: { data: SkillsSectionData }) => {
       <ProficienciesSection
         title={data.languagesTitle}
         description={data.languagesDescription}
+        cardData={data.cardData}
       />
     </div>
   );

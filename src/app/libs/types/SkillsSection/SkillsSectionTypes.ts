@@ -6,6 +6,7 @@ export interface CardData {
 }
 
 export interface SkillsSectionData {
+    SkillsTitle: string;
     reactDescription: string;
     reactTitle: string;
     tailwindTitle: string;

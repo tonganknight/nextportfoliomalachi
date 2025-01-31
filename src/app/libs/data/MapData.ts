@@ -1,7 +1,7 @@
 import { SkillsSectionData } from "../types";
 import { AboutMeData } from "./AboutMeSection";
 import { Anchors } from "./NavBar";
-import { cardData, languagesDescription, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
+import { cardData, languagesDescription, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, SkillsTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
 
 export const MapData = () => {
 
@@ -15,6 +15,7 @@ export const MapData = () => {
 
     const SkillSectionData = () =>{
         return <SkillsSectionData>{
+            SkillsTitle,
             reactDescription,
             reactTitle,
             tailwindTitle,

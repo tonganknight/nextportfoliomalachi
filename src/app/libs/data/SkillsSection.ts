@@ -13,7 +13,7 @@ export const playwirghtDescription =
 export const languagesTitle = "Proficiencies";
 export const languagesDescription =
 " Below you can find a list of languages and technologies I have experience with. I am always looking to learn new technology.";
-
+export const SkillsTitle = "Skills";
 export const cardData = [
     {title: "TypeScript", description: "TypeScript is the launguage I am most familiar with. Its the main lanugage I use for Web Development. I have 4+ years of experience with it.", image: "https://cdn.iconfinder.com/stored_data/2071555/128/png?token=1736802882-YI6872gFI7hjurbDTT%2BkKfu3hB%2FbYpIL1Q9yaq2Mp50%3D", subtitle: "Software Engineer"},
     {title: "JavaScript", description: "I have a lot of expierence using JavaScript for both front and back end development. It was the original language I learnedd for development", image: "https://cdn.iconfinder.com/stored_data/2071566/128/png?token=1736803853-i3jwNepCW656l%2FtHFqkT8ygw1zAMiOQWozTw7PssMsU%3D", subtitle: "Software Engineer"},

@@ -3,16 +3,20 @@ import useMobileScreen from "../../helpers/useMobileScreen";
 
 interface NavigationMenuProps {
   anchors: string[];
+  NavMobileTitle: string;
 }
 
-export const NavigationMenu = (props: NavigationMenuProps) => {
+export const NavigationMenu = ({
+  anchors,
+  NavMobileTitle,
+}: NavigationMenuProps) => {
   const isMoble = useMobileScreen();
 
   return (
     <div className="sticky top-0 z-50">
       {isMoble ? (
         <p className="flex justify-center p-3 font-RussoOne-Regular">
-          Malachi Alusa-
+          {NavMobileTitle}
         </p>
       ) : (
         <nav>
@@ -21,7 +25,7 @@ export const NavigationMenu = (props: NavigationMenuProps) => {
               "flex flex-row justify-evenly p-4 font-RussoOne-Regular bg-black z-50"
             }
           >
-            {props.anchors.map((anchor) => (
+            {anchors.map((anchor) => (
               <li key={anchor}>
                 <a
                   className="hover:bg-gradient-to-r from-purple-600 to-purple-900 hover:opacity-80 rounded-3xl p-3"

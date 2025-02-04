@@ -1,0 +1,17 @@
+import NSPGIF from "../../../../public/Images/NSP.gif";
+import playwrightGif from "../../../../public/Images/PLaywright.gif";
+export const NaturessunshineTitle = 'Natures Sunshine';
+export const WetXTitle = 'WetX';
+export const TecuityTitle = 'Tecuity';
+export const NaturesSunshineDescription = 'Natures Sunshine is a company that sells health supplements. I currently work as a Jr Full stack Developer for them. I maintain the front end of our code in typescript using Next.js framework. For the past 2 years I have worked on: integrations, modifications, bugs, and feature creations.';
+export const WetXDescription = 'WetX is a company that sells water proofing products. I worked on the front-end of the website. I used React and Redux to build the website. I also used Typescript to write the code.';
+export const TecuityDescription = 'Tecuity creates software for Secretaries of State. I worked as a QA associate with them. During my tenure I helped build Testing automation utilizing TypeScript and Node JS. I use a framework called Microsoft Playwright to create testing automation to test their builds for issues after code pushes.';
+export const NatuesSunshineGif = NSPGIF;
+export const NaturesSunshineStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
+export const WetXGif = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
+export const WetXStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
+export const TecuityGif = playwrightGif;
+export const TecuityStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
+export const NaturesSunshineLink = 'https://www.naturessunshine.com/';
+export const WetXLink = 'https://www.wetx.io/';
+export const TecuityLink = 'https://www.tecuity.com/';

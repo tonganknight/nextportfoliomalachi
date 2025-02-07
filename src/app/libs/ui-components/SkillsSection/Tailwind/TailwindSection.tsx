@@ -18,8 +18,8 @@ export const TailWindSection = (props: TailWindSectionProps) => {
           alt="Tailwind CSS Logo"
         />
       </div>
-      <div className=" ml-5 mr-[212px] mt-[90px] font-RussoOne-Regular text-2xl w-[50%] items-center">
-        <TypingText waitTime={4000} text={`${props.description}`} />
+      <div className=" ml-5 mr-[212px] mt-[90px] font-RussoOne-Regular text-xl w-[50%] items-center">
+        <TypingText delay={16} waitTime={4000} text={`${props.description}`} />
       </div>
     </div>
   );

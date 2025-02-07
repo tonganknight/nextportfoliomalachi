@@ -35,7 +35,7 @@ export default function TextFlip({ array }: TextFlipProps) {
     <div className="box-content flex gap-4 text-based font-semibold">
       <div
         ref={tallestRef}
-        className="flex flex-col overflow-hidden text-purple-900"
+        className="flex flex-col overflow-hidden text-purple-900 texxt-center"
       >
         {words.map((word, index) => (
           <span key={index} className="animate-flip-words">

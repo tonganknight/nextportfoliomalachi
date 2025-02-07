@@ -23,8 +23,8 @@ export const ReactSection = (props: ReactSectionProps) => {
         </p>
         <ReactIcon />
       </div>
-      <div className=" ml-5 mr-[212px] mt-[90px] font-RussoOne-Regular text-2xl w-[50%] items-center">
-        <TypingText waitTime={5000} text={`${props.description}`} />
+      <div className=" ml-5 mr-[212px] mt-[90px] font-RussoOne-Regular text-xl w-[50%] items-center">
+        <TypingText waitTime={5000} delay={16} text={`${props.description}`} />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import { SkillsTitle } from "./SkillsTitle";
 
 export const SkillsSection = ({ data }: { data: SkillsSectionData }) => {
   return (
-    <div id="Skills" className="flex flex-col items-center mt-[10%]">
+    <div className="flex flex-col items-center mt-[10%]">
       <SkillsTitle title={data.SkillsTitle} />
       <ReactSection
         title={data.reactTitle}

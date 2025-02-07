@@ -8,7 +8,7 @@ export const ParagraphOne = () => {
   return (
     <>
       {isMobile ? (
-        <p className="text-based">
+        <p>
           "I’m a Full Stack Web Developer with a passion for new technologies.
           Over the past 4 years, I’ve worked professionally as a
           <span className=" ml-[4px] text-purple-900">React</span> developer,
@@ -21,7 +21,7 @@ export const ParagraphOne = () => {
           <div className={cn("flex", isMobile ? "flex-col" : "flex-row")}>
             "I’m a Full Stack Web Developer with a passion for new technologies.
             Over the past 4 years, I’ve worked professionally as a
-            <div className="mt-[25px]">
+            <div className="mt-[57px] ml-[49px] absolute">
               <TextFlip
                 array={["React", "Next", "Angular", "HandleBars", "React"]}
               />

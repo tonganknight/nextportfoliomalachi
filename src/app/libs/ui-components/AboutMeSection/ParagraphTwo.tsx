@@ -7,7 +7,7 @@ export const ParagraphTwo = () => {
   return (
     <>
       {isMobile ? (
-        <p className="text-based">
+        <p>
           My approach to development revolves around{" "}
           <span className="text-purple-900">
             communication and collaboration.{" "}
@@ -22,7 +22,7 @@ export const ParagraphTwo = () => {
         <>
           <div className="flex flex-row">
             My approach to development revolves around
-            <div className="ml-[1%] mr-[1%]">
+            <div className="ml-[469px] absolute">
               <TextFlip
                 array={[
                   "collaboration. ",
@@ -33,13 +33,12 @@ export const ParagraphTwo = () => {
                 ]}
               />
             </div>
-            I focus on
           </div>
           <div className="flex flex-col">
-            understanding the goals of each project to create tailored solutions
-            that align with and unite the vision of both the client and the
-            end-users. I emphasize writing
-            <div className=" flex flex-row absolute mt-[4%] left-[49%]">
+            I focus on understanding the goals of each project to create
+            tailored solutions that align with and unite the vision of both the
+            client and the end-users. I emphasize writing
+            <div className=" flex flex-row absolute ml-[505px] mt-[56px]">
               <TextFlip
                 array={["clean", "simple", "reusable", "scalable", "clean"]}
               />

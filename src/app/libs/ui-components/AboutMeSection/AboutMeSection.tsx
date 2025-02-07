@@ -16,7 +16,7 @@ export const AboutMeSection = (AboutMeSectionProps: AboutMeSectionProps) => {
       <TitleSection photoSRC={aboutPhoto} />
       <div
         className={cn(
-          " p-[3%] mt-[8%] font-RussoOne-Regular",
+          " p-[3%] mt-[8%] font-RussoOne-Regular text-xl",
           isMobile ? "w-[97%]" : "w-[65%]"
         )}
       >

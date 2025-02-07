@@ -1,6 +1,6 @@
 import { MapData } from "../data/MapData";
 
-export const GetMappedData = () => {
+export const getMappedData = () => {
      const { NavBarSectionData, SkillSectionData, AboutMeSectionData, ExperienceSectionData } = MapData();
      const NavAnchors = NavBarSectionData();
      const AboutMeData = AboutMeSectionData();

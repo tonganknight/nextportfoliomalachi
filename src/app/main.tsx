@@ -5,6 +5,7 @@ import { SkillsSection } from "./libs/ui-components/SkillsSection/SkillsSection"
 import { getMappedData } from "./libs/helpers/getMappedData";
 import { ExpierenceSection } from "./libs/ui-components/ExpierenceSection";
 import { ResumeSection } from "./libs/ui-components/ResumeSection";
+import { NavigationBar } from "./libs/ui-components/NavigationMenu/NavigationBar";
 
 export const Main = () => {
   const { NavAnchors, AboutMeData, SkillsData, ExperiencData } =
@@ -18,7 +19,7 @@ export const Main = () => {
   };
   return (
     <div>
-      <NavigationMenu
+      <NavigationBar
         anchors={NavAnchors.Anchors}
         NavMobileTitle={NavAnchors.NavMobileTitle}
       />

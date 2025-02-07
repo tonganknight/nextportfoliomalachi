@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <div
       id="Home"
-      className="flex justify-center items-center h-screen w-screen mt-[14rem]"
+      className="flex justify-center items-center h-screen mt-[14rem]"
     >
       <BackGroundBlur isMobile={isMobile} />
       <HeroTitle />

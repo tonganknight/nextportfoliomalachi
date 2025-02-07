@@ -10,14 +10,18 @@ export const HeroTitle = () => {
     <>
       <div
         className={cn(
-          "absolute  mt-[14rem] text-6xl font-RussoOne-Regular z-10",
+          "absolute  mt-[14rem] text-6xl Raleway-Regular z-10",
           isMobile ? "ml-[11%] mb-[36rem]" : "ml-[32%] mb-[46rem]"
         )}
       >
         <div className="flex flex-col">
-          <p>Hello, I'm</p>
-          <span className="text-purple-600">Malachi Alusa</span>
-          <span className="text-2xl mt-[10px]">Full Stack Developer</span>
+          <p className="Raleway-Regular font-semibold">Hello, I'm</p>
+          <span className=" font-bold text-purple-600 Raleway-Regular">
+            MALACHI ALUSA
+          </span>
+          <span className="text-2xl mt-[10px] Raleway-Regular">
+            Full Stack Developer
+          </span>
         </div>
         <ContectSection />
       </div>

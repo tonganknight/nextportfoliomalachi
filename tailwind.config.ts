@@ -7,7 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    
     fontFamily:{
       "RussoOne-Regular": ["RussoOne-Regular"],
     },
@@ -44,6 +43,7 @@ const config: Config = {
         150: "1.5",
       },
       colors: {
+        'primary-color': '#9333EA', 
         filter: {
           "blur-20": "blur(20px)",
           "blur-25": "blur(25px)",
@@ -56,6 +56,10 @@ const config: Config = {
         "fw-2": "flip-words 8.5s infinite",
         "fw-3": "flip-words 7s infinite",
     },
+    fontFamily: {
+      'RussoOne-Regular': ['RussoOne-Regular'],
+      'Raleway-Regular': ['Raleway-Regular'],
+    }
     },
   },
   plugins: [require("tailwindcss-animate")],

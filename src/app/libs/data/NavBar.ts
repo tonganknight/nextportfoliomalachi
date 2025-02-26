@@ -1,2 +1,2 @@
- export const Anchors = ["Home", "About Me", "Skills", "Expirence", ];
+ export const Anchors = ["HOME", "ABOUT ME", "SKILLS", "EXPIRENCE", ];
  export const NavMobileTitle = 'Malachi Alusa'

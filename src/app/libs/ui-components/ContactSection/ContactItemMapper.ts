@@ -9,15 +9,7 @@ export const ContentItemMapper = (ContactItemsProps:ContactItemsProps ) => {
         {
           info: ContactItemsProps.email,
           icon: ContactItemsProps.emailIconSrc
-        },
-        {
-          info: ContactItemsProps.github,
-          icon: ContactItemsProps.githubIconSrc,
-        },
-        {
-          info: ContactItemsProps.linkedIn,
-          icon: ContactItemsProps.linkedInIconSrc,
-        },
+        }
       ];
     
       return { itemInfo }

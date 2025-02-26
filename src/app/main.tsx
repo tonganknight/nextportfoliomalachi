@@ -1,22 +1,16 @@
 import { AboutMeSection } from "./libs/ui-components/AboutMeSection/AboutMeSection";
 import { Hero } from "./libs/ui-components/Hero/Hero";
-import { NavigationMenu } from "./libs/ui-components/NavigationMenu/NavigationMenu";
 import { SkillsSection } from "./libs/ui-components/SkillsSection/SkillsSection";
 import { getMappedData } from "./libs/helpers/getMappedData";
 import { ExpierenceSection } from "./libs/ui-components/ExpierenceSection";
-import { ResumeSection } from "./libs/ui-components/ResumeSection";
 import { NavigationBar } from "./libs/ui-components/NavigationMenu/NavigationBar";
+import { ContactSection } from "./libs/ui-components/ContactSection/ContactSection";
+import { ProficienciesSection } from "./libs/ui-components/SkillsSection/ProficenciesSection/ProficienciesSection";
+import { FooterSection } from "./libs/ui-components/FooterSection";
 
 export const Main = () => {
   const { NavAnchors, AboutMeData, SkillsData, ExperiencData } =
     getMappedData();
-  const testData = {
-    url: "test",
-    title: "Resume",
-    downloadText: "Click here to download a copy of my Resume",
-    description:
-      "Here is my Resume. Please feel free to click the download link for a PDF copy",
-  };
   return (
     <div>
       <NavigationBar
@@ -25,9 +19,15 @@ export const Main = () => {
       />
       <Hero />
       <AboutMeSection aboutMeData={AboutMeData} />
+      <ProficienciesSection
+        title={SkillsData.languagesTitle}
+        description={SkillsData.languagesDescription}
+        cardData={SkillsData.cardData}
+      />
       <SkillsSection data={SkillsData} />
       <ExpierenceSection data={ExperiencData} />
-      <ResumeSection data={testData} />
+      <ContactSection />
+      <FooterSection />
     </div>
   );
 };

@@ -43,7 +43,11 @@ const config: Config = {
         150: "1.5",
       },
       colors: {
-        'primary-color': '#9333EA', 
+        'photo-bg-Primary-color' : '#73727a',
+        'primary-color': '#330A57',
+        'secondary-color': '#863CCA',
+        'background-primary-color': '#05060b',
+        'background-secondary-color': '#17181e',
         filter: {
           "blur-20": "blur(20px)",
           "blur-25": "blur(25px)",

@@ -1,8 +1,8 @@
-import { title } from "process";
+
 
 export const reactDescription =
 " I have heavy experience with both React and Next.js. Over the last 4 years I have helped build and maintain multiple websites with these frameworks. I have also worked with other frameworks such as Angular, but I prefer React and Next.js for their flexibility and ease of use.";
-export const reactTitle = "React & Next.js";
+export const reactTitle = "REACT & NEXT.JS";
 
 export const tailwindTitle = "Tailwind & CSS";
 export const tailWindDescription =
@@ -10,10 +10,8 @@ export const tailWindDescription =
 export const playwrightTitle = "Testing Automation";
 export const playwirghtDescription =
 " Utilizing Microsoft Playwright I have developed multiple automation testing suties for a wide range of sites. These range creating automation to test products for Secretaries of State to products for Ecommerce  websites.";
-export const languagesTitle = "Proficiencies";
-export const languagesDescription =
-" Below you can find a list of languages and technologies I have experience with. I am always looking to learn new technology.";
-export const SkillsTitle = "Skills";
+export const languagesTitle = "PROFICIENCIES";
+export const SkillsTitle = "SKILLS";
 export const cardData = [
     {title: "TypeScript", description: "TypeScript is the launguage I am most familiar with. Its the main lanugage I use for Web Development. I have 4+ years of experience with it.", image: "https://cdn.iconfinder.com/stored_data/2071555/128/png?token=1736802882-YI6872gFI7hjurbDTT%2BkKfu3hB%2FbYpIL1Q9yaq2Mp50%3D", subtitle: "Software Engineer"},
     {title: "JavaScript", description: "I have a lot of expierence using JavaScript for both front and back end development. It was the original language I learnedd for development", image: "https://cdn.iconfinder.com/stored_data/2071566/128/png?token=1736803853-i3jwNepCW656l%2FtHFqkT8ygw1zAMiOQWozTw7PssMsU%3D", subtitle: "Software Engineer"},

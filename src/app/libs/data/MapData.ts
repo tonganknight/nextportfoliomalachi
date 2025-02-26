@@ -2,7 +2,7 @@ import { ExpierenceSectionData, SkillsSectionData } from "../types";
 import { AboutMeData } from "./AboutMeSection";
 import { NaturessunshineTitle, NaturesSunshineDescription, NatuesSunshineGif, NaturesSunshineStaticImage, WetXTitle, WetXDescription, WetXGif, WetXStaticImage, TecuityTitle, TecuityDescription, TecuityGif, TecuityStaticImage, NaturesSunshineLink, WetXLink, TecuityLink, UniversityTitle, UniversityofUtahImage, UniversityOfUtahlink, UniversityOfUtahDescription } from "./ExpirenceSection";
 import { Anchors, NavMobileTitle } from "./NavBar";
-import { cardData, languagesDescription, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, SkillsTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
+import { cardData, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, SkillsTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
 
 export const MapData = () => {
 
@@ -24,7 +24,6 @@ export const MapData = () => {
             playwrightTitle,
             playwirghtDescription,
             languagesTitle,
-            languagesDescription,
             cardData: cardData
         }
     }

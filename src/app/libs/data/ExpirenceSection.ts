@@ -1,11 +1,11 @@
 import NSPGIF from "../../../../public/Images/NSP.gif";
 import playwrightGif from "../../../../public/Images/PLaywright.gif";
 import UniversityOfUtah from '../../../../public/Images/certificate.png';
-export const NaturessunshineTitle = 'Natures Sunshine';
-export const UniversityTitle = 'University Of Utah';
+export const NaturessunshineTitle = 'NATURES  SUNSHINE';
+export const UniversityTitle = 'UNIVERSITY OF UTAH';
 
-export const WetXTitle = 'WetX';
-export const TecuityTitle = 'Tecuity';
+export const WetXTitle = 'WETX';
+export const TecuityTitle = 'TECUITY';
 export const NaturesSunshineDescription = 'Natures Sunshine is a company that sells health supplements. I currently work as a Jr Full stack Developer for them. I maintain the front end of our code in typescript using Next.js framework. For the past 2 years I have worked on: integrations, modifications, bugs, and feature creations.';
 export const WetXDescription = 'I worked at WetX as an associate developer. I mostly did small changes to their react application. I worked with a small team of developers working on developing technology that catered to users who buy and sell water rights.';
 export const TecuityDescription = 'Tecuity creates software for Secretaries of State. I worked as a QA associate with them. During my tenure I helped build Testing automation utilizing TypeScript and Node JS. I use a framework called Microsoft Playwright to create testing automation to test their builds for issues after code pushes.';

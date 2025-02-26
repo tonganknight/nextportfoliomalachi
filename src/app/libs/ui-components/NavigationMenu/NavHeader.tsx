@@ -5,7 +5,7 @@ export const NavHeader = () => {
         CONTACT ME
       </p>
       <a
-        className="mr-[98px] bg-black border-b-[1px] border-primary-color border-opacity-50"
+        className="mr-[98px] bg-black border-opacity-50"
         href="/Images/ResumePlaceHolder.pdf"
         download="Resume Malachi Alusa PDF"
       >

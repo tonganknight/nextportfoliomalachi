@@ -13,7 +13,12 @@ export const ContactItems = (ContactItemsProps: ContactItemsProps) => {
       {contentMaper.itemInfo.map((item, index) => (
         <div className="flex flex-row mt-[10px]" key={index}>
           <Image src={item.icon} alt={""} height={35} width={30} />
-          <p className={cn("ml-[10px]", isMoble ? "text-xs" : "text-based")}>
+          <p
+            className={cn(
+              "ml-[10px]",
+              isMoble ? "text-xs" : "text-based font-semibold Raleway-Regular"
+            )}
+          >
             {item.info}
           </p>
         </div>

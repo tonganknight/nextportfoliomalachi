@@ -4,7 +4,7 @@ interface SkillsSectiontitleProps {
 
 export const ProficienciesTitle = (props: SkillsSectiontitleProps) => {
   return (
-    <p className="text-4xl font-RussoOne-Regular p-[10px] mb-[10px]">
+    <p className="text-3xl Raleway-Regular font-semibold py-[7%]">
       {props.title}
     </p>
   );

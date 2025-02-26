@@ -10,9 +10,8 @@ interface LanguagesSectionProps {
 }
 export const ProficienciesSection = (props: LanguagesSectionProps) => {
   return (
-    <div className="flex flex-col items-center m-[10%]">
+    <div className="flex flex-col items-center">
       <ProficienciesTitle title={props.title} />
-      <ProficienciesSectionDescription description={props.description} />
       <ProficienciesSectionCards cardData={props.cardData} />
     </div>
   );

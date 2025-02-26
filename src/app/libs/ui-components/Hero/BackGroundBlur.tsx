@@ -5,20 +5,21 @@ interface BackGroundBlurProps {
   className?: string;
   padding?: string;
   margin?: string;
+  singleBlob?: boolean;
 }
 
 export const BackGroundBlur = (data: BackGroundBlurProps) => {
-  console.log(data.padding);
   return (
-    <div className={cn("static", data.isMobile && "pt-[189px]")}>
+    <div className={cn("", data.isMobile && "pt-[189px]")}>
       <BlurryBlob
-        className={`rounded-xl opacity-45 ${
+        className={`rounded-xl opacity-45 z-10 ${
           data.className ? data.className : ""
         }`}
         firstBlobColor=" bg-purple-900"
         secondBlobColor="bg-purple-600"
         margin={data.margin ? data.margin : ""}
         padding={data.padding ? data.padding : ""}
+        singleBlob={data.singleBlob}
       />
     </div>
   );

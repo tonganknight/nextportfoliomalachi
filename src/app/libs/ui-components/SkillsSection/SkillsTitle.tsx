@@ -1,7 +1,7 @@
 export const SkillsTitle = ({ title }: { title: string }) => {
   return (
-    <div id="Skills">
-      <p className="text-6xl font-RussoOne-Regular p-[10px] mb-[25px]">
+    <div id="SKILLS">
+      <p className=" text-3xl Raleway-Regular font-semibold p-[10px] my-[60%]">
         {title}
       </p>
     </div>

@@ -9,7 +9,7 @@ export const ProficienciesSectionCards = (cardData: {
   return (
     <div className="flex flex-col">
       {rows.map((row, rowIndex) => (
-        <div className="flex flex-row pt-5" key={rowIndex}>
+        <div className="flex flex-row pt-3 " key={rowIndex}>
           {row.map((card, index) => (
             <FlipCard
               key={index}

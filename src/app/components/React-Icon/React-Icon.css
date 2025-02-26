@@ -12,14 +12,15 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2a2c2e;
+    background-color: #05060b;
+    padding: 2%
 }
 .circles {
     height: 200px;
     width: 200px;
     position: relative;
     perspective: 50000px;
-    color: #61dafb
+    color: #61dafb;
 }
 .circleSpan {
     position: absolute;

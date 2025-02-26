@@ -31,7 +31,7 @@ export const NavigationMenu = ({
               {anchors.map((anchor) => (
                 <li key={anchor} className="px-6 ">
                   <a
-                    className="hover:text-purple-600 rounded-3xl p-3 text-lg Raleway-Regular font-bold"
+                    className="hover:text-primary-color rounded-3xl p-3 text-md Raleway-Regular font-semibold"
                     href={`#${anchor}`}
                   >
                     {anchor}

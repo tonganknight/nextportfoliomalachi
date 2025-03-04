@@ -15,7 +15,7 @@ export const HeroTitle = () => {
         )}
       >
         <div className="flex flex-col ml-[22%] w-[100%] mt-[-7%]">
-          <p className="Raleway-Regular font-semibold">Hello, I'm</p>
+          <p className="Raleway-Regular font-semibold">{"Hello, I'm"}</p>
           <span className="  text-md font-bold text-purple-600 Raleway-Regular">
             MALACHI ALUSA
           </span>

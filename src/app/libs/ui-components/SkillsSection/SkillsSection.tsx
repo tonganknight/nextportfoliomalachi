@@ -1,7 +1,6 @@
 import { PlaywrightSection } from "./Playwright/PlaywrightSection";
 import { ReactSection } from "./React/ReactSection";
 import { TailWindSection } from "./Tailwind/TailwindSection";
-import { ProficienciesSection } from "./ProficenciesSection/ProficienciesSection";
 import { SkillsSectionData } from "../../types";
 import { SkillsTitle } from "./SkillsTitle";
 

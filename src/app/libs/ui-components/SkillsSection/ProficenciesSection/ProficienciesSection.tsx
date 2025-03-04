@@ -1,5 +1,4 @@
 import { ProficienciesTitle } from "./ProficienciesTitle";
-import { ProficienciesSectionDescription } from "./ProficienciesSectionDescription";
 import { ProficienciesSectionCards } from "./ProficienciesSectionCards";
 import { CardData } from "@/app/libs/types";
 

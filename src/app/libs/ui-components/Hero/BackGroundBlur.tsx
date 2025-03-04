@@ -10,7 +10,7 @@ interface BackGroundBlurProps {
 
 export const BackGroundBlur = (data: BackGroundBlurProps) => {
   return (
-    <div className={cn("", data.isMobile && "pt-[189px]")}>
+    <div>
       <BlurryBlob
         className={`rounded-xl opacity-45 z-10 ${
           data.className ? data.className : ""

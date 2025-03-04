@@ -7,7 +7,7 @@ export const TitleSection = () => {
     <p
       className={cn(
         "text-3xl Raleway-Regular p-[10px] font-semibold mb-10",
-        isMobile && "text-center"
+        isMobile && " items-center text-center mt-3"
       )}
     >
       ABOUT ME

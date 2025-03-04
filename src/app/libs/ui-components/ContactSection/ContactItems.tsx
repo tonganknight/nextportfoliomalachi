@@ -15,8 +15,8 @@ export const ContactItems = (ContactItemsProps: ContactItemsProps) => {
           <Image src={item.icon} alt={""} height={35} width={30} />
           <p
             className={cn(
-              "ml-[10px]",
-              isMoble ? "text-xs" : "text-based font-semibold Raleway-Regular"
+              "ml-[10px] font-semibold Raleway-Regular",
+              isMoble ? "text-xs" : "text-based"
             )}
           >
             {item.info}

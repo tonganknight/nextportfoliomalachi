@@ -1,5 +1,6 @@
 import NSPGIF from "../../../../public/Images/NSP.gif";
 import playwrightGif from "../../../../public/Images/PLaywright.gif";
+import WetX from '../../../../public/Images/WETX.gif';
 import UniversityOfUtah from '../../../../public/Images/certificate.png';
 export const NaturessunshineTitle = 'NATURES  SUNSHINE';
 export const UniversityTitle = 'UNIVERSITY OF UTAH';
@@ -13,7 +14,7 @@ export const UniversityOfUtahDescription = 'I attended a web development program
 export const NatuesSunshineGif = NSPGIF;
 export const NaturesSunshineStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
 export const UniversityofUtahImage = UniversityOfUtah;
-export const WetXGif = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
+export const WetXGif = WetX;
 export const WetXStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";
 export const TecuityGif = playwrightGif;
 export const TecuityStaticImage = "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D";

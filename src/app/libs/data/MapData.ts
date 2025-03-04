@@ -1,13 +1,13 @@
 import { ExpierenceSectionData, SkillsSectionData } from "../types";
 import { AboutMeData } from "./AboutMeSection";
 import { NaturessunshineTitle, NaturesSunshineDescription, NatuesSunshineGif, NaturesSunshineStaticImage, WetXTitle, WetXDescription, WetXGif, WetXStaticImage, TecuityTitle, TecuityDescription, TecuityGif, TecuityStaticImage, NaturesSunshineLink, WetXLink, TecuityLink, UniversityTitle, UniversityofUtahImage, UniversityOfUtahlink, UniversityOfUtahDescription } from "./ExpirenceSection";
-import { Anchors, NavMobileTitle } from "./NavBar";
+import { Anchors } from "./NavBar";
 import { cardData, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, SkillsTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
 
 export const MapData = () => {
 
     const NavBarSectionData = () => {
-        return{Anchors, NavMobileTitle} 
+        return{Anchors} 
     }
 
     const AboutMeSectionData = () => {
@@ -32,7 +32,7 @@ export const MapData = () => {
         return <ExpierenceSectionData> {
             Title: [NaturessunshineTitle, WetXTitle, TecuityTitle, UniversityTitle],
             Description: [NaturesSunshineDescription, WetXDescription, TecuityDescription, UniversityOfUtahDescription],
-            Gif: [NatuesSunshineGif, WetXGif, TecuityGif, UniversityofUtahImage],
+            Gif: [NatuesSunshineGif.src, WetXGif.src, TecuityGif.src, UniversityofUtahImage.src],
             StaticImage: [NaturesSunshineStaticImage, WetXStaticImage, TecuityStaticImage, UniversityofUtahImage],
             Links: [NaturesSunshineLink, WetXLink, TecuityLink, UniversityOfUtahlink]
         }

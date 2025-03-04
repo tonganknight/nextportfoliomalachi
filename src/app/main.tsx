@@ -13,10 +13,7 @@ export const Main = () => {
     getMappedData();
   return (
     <div>
-      <NavigationBar
-        anchors={NavAnchors.Anchors}
-        NavMobileTitle={NavAnchors.NavMobileTitle}
-      />
+      <NavigationBar anchors={NavAnchors.Anchors} />
       <Hero />
       <AboutMeSection aboutMeData={AboutMeData} />
       <ProficienciesSection

@@ -20,10 +20,10 @@ export default function BlurryBlob({
 }: BlobProps) {
   return (
     <div className="min-h-52 min-w-52 items-center justify-center">
-      <div className={`relative w-full max-w-lg ${margin}`}>
+      <div className="relative w-full max-w-lg">
         <div
           className={cn(
-            `absolute right-[-16rem] top-[-13rem] h-72 w-72 animate-pop-blob rounded-sm bg-blue-400 p-8 opacity-45 blur-3xl filter ${padding}`,
+            `absolute right-[-16rem] top-[-13rem] h-72 w-72 animate-pop-blob rounded-sm bg-blue-400 p-8 opacity-45 blur-3xl filter ${padding} ${margin}`,
             className,
             firstBlobColor
           )}

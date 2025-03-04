@@ -21,7 +21,7 @@ export const Button = ({
       variation === "primary"
         ? "bg-secondary-color text-white p4 text-center w-[220px] h-[30px] font-semibold rounded-lg"
         : " font-semibold bg-transparent text-secondary-color p4 text-center w-[220px] h-[30px] font-semibold rounded-lg border-2 border-secondary-color";
-    setStateClassName(bg + className);
+    setStateClassName(bg + " " + className);
   }, []);
   return (
     <button onClick={onClick} className="items-center">

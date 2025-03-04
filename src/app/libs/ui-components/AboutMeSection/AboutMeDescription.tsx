@@ -1,7 +1,14 @@
+"use client";
+import { cn } from "../../utils";
 import { TitleSection } from "./TitleSection";
-export const AboutMeDescription = () => {
+export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
   return (
-    <div className="flex flex-col items-start ml-[10%]">
+    <div
+      className={cn(
+        "flex flex-col  ml-[10%]",
+        isMobile ? "items-center" : "items-start"
+      )}
+    >
       <TitleSection />
       <p className=" text-sm w-[70%]">
         I’m a Full Stack Web Developer with a passion for new technologies. Over

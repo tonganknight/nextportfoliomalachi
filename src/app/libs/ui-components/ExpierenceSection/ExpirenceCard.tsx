@@ -3,11 +3,17 @@ import { ExpierenceSectionData } from "../../types";
 import Image from "next/image";
 import { BackGroundBlur } from "../Hero/BackGroundBlur";
 import useMobileScreen from "../../helpers/useMobileScreen";
+import { cn } from "../../utils";
 
 export const ExpierenceCard = (data: ExpierenceSectionData) => {
   const isMobile = useMobileScreen();
   return (
-    <div className="flex flex-col justify-center items-center mt-[140%]">
+    <div
+      className={cn(
+        "flex flex-col justify-center items-center ",
+        isMobile ? "mt-[560%] mb-[100%]" : "mt-[140%]"
+      )}
+    >
       {data.Title.map((title, index) => {
         return (
           <>
@@ -15,11 +21,15 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
               className="mt-[200%]"
               singleBlob={true}
               isMobile={isMobile}
-              padding={"p-96"}
+              padding={isMobile ? "p-25" : " p-96 "}
+              margin={isMobile ? "mr-[125%]" : ""}
             />
             <div
               key={index}
-              className="flex flex-col items-center bg-background-primary-color h-[25%] w-[50%] rounded-lg  mb-6 z-20 bg-opacity-80"
+              className={cn(
+                "flex flex-col items-center bg-background-primary-color  rounded-lg  z-20 bg-opacity-80",
+                isMobile ? "mb-2" : "h-[25%] w-[50%] mb-6 "
+              )}
             >
               <div key={index} className=" Raleway-Regulaar text-4xl mb-3 p-6 ">
                 {title}

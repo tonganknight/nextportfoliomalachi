@@ -10,7 +10,12 @@ interface PlaywrightSectionProps {
 export const PlaywrightSection = (props: PlaywrightSectionProps) => {
   const isMobile = useMobileScreen();
   return (
-    <div className=" flex flex-row justify-center mt-[10%] mb-[10%]">
+    <div
+      className={cn(
+        "flex flex-row justify-center mt-[10%] mb-[10%]",
+        isMobile ? "flex-col items-center " : "flex-row "
+      )}
+    >
       <Image
         className="bg-background-primary-color"
         src="https://static.wikia.nocookie.net/dev/images/f/f3/Playwrighttestsrun.gif/revision/latest/scale-to-width-down/560?cb=20211216121750"
@@ -18,8 +23,18 @@ export const PlaywrightSection = (props: PlaywrightSectionProps) => {
         height={300}
         alt="Playwright Logo"
       />
-      <div className="flex flex-col w-[30%] ml-[15%]">
-        <p className="text-md Raleway-Regular p-[10px] mb-[20px] self-start ">
+      <div
+        className={cn(
+          "flex flex-col",
+          isMobile ? "text-center" : " w-[30%] ml-[15%]"
+        )}
+      >
+        <p
+          className={cn(
+            "text-md Raleway-Regular p-[10px] mb-[20px] ",
+            isMobile ? "self-center" : "self-start"
+          )}
+        >
           {props.title}
         </p>
         <TypingText waitTime={5000} delay={16} text={`${props.description}`} />

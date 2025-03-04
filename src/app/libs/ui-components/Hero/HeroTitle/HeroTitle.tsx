@@ -11,7 +11,7 @@ export const HeroTitle = () => {
       <div
         className={cn(
           "absolute  mt-[14rem] text-6xl Raleway-Regular z-10",
-          isMobile ? "ml-[11%] mb-[36rem]" : "ml-[32%] mb-[46rem]"
+          isMobile ? "ml-[11%] mb-[36rem] mr-[41%]" : "ml-[32%] mb-[46rem]"
         )}
       >
         <div className="flex flex-col ml-[22%] w-[100%] mt-[-7%]">
@@ -23,8 +23,15 @@ export const HeroTitle = () => {
             Full Stack Developer
           </span>
         </div>
-        <div className="flex flex-row justify-around pt-[8%] ml-[22%] w-full">
-          <Button variation="primary">CONTACT ME</Button>
+        <div
+          className={cn(
+            "flex justify-around pt-[8%] ml-[22%] w-full",
+            isMobile ? "flex-col " : "flex-row"
+          )}
+        >
+          <Button className={isMobile ? "mb-[4%]" : ""} variation="primary">
+            CONTACT ME
+          </Button>
           <Button isLink={true} variation="secondary">
             DOWNLOAD RESUME
           </Button>

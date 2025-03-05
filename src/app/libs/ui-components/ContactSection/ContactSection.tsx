@@ -8,6 +8,7 @@ export const ContactSection = () => {
   const isMobile = useMobileScreen();
   return (
     <div
+      id="CONTACT ME"
       className={cn(
         "text-2xl flex Railway-Regular flex-col items-center bg-background-secondary-color py-[2%] mt-[210%]",
         isMobile ? "mt-[550%] mb-[1px] " : "mt-[200%] "

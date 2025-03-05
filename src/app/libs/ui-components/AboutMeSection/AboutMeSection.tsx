@@ -12,13 +12,13 @@ export const AboutMeSection = (AboutMeSectionProps: AboutMeSectionProps) => {
       id="ABOUT ME"
       className={cn(
         "flex justify-center bg-background-secondary-color py-[7%]",
-        isMobile ? "flex-col" : "flex-row"
+        isMobile ? "flex-col items-center" : "flex-row"
       )}
     >
       <Image
         className={cn(
           "rounded-lg bg-photo-bg-Primary-color",
-          isMobile ? "ml-[12%]" : "ml-[20%]"
+          isMobile ? "" : "ml-[20%]"
         )}
         height={250}
         width={300}

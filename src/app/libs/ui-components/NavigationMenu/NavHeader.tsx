@@ -14,9 +14,15 @@ export const NavHeader = () => {
           : "flex-row justify-end h-[37px]"
       )}
     >
-      <p className=" text-xs pr-6 text-center Raleway-Regular font-semibold pt-[12px] font-semibold">
+      <a
+        href="#CONTACT ME"
+        className={cn(
+          "text-xs text-center Raleway-Regular font-semibold  font-semibold",
+          isMobile ? "py-[12px]" : "pr-6 pt-[12px] "
+        )}
+      >
         CONTACT ME
-      </p>
+      </a>
       <a
         className={cn(
           "bg-black border-opacity-50",
@@ -27,8 +33,8 @@ export const NavHeader = () => {
       >
         <p
           className={cn(
-            "text-xs text-center Raleway-Regular font-semibold pt-[12px] bg-black  font-semibold",
-            isMobile ? "" : "mr-12 pl-12"
+            "text-xs text-center Raleway-Regular font-semibold bg-black  font-semibold",
+            isMobile ? "py-[12px]" : "mr-12 pl-12 pt-[12px] "
           )}
         >
           DOWNLOAD RESUME

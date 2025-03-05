@@ -1,4 +1,5 @@
 "use client";
+import { Fragment } from "react";
 import { ExpierenceSectionData } from "../../types";
 import Image from "next/image";
 import { BackGroundBlur } from "../Hero/BackGroundBlur";
@@ -7,6 +8,7 @@ import { cn } from "../../utils";
 
 export const ExpierenceCard = (data: ExpierenceSectionData) => {
   const isMobile = useMobileScreen();
+
   return (
     <div
       className={cn(
@@ -16,7 +18,7 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
     >
       {data.Title.map((title, index) => {
         return (
-          <>
+          <Fragment key={index}>
             <BackGroundBlur
               className="mt-[200%]"
               singleBlob={true}
@@ -25,16 +27,15 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
               margin={isMobile ? "mr-[125%]" : ""}
             />
             <div
-              key={index}
               className={cn(
                 "flex flex-col items-center bg-background-primary-color  rounded-lg  z-20 bg-opacity-80",
                 isMobile ? "mb-2" : "h-[25%] w-[50%] mb-6 "
               )}
             >
-              <div key={index} className=" Raleway-Regulaar text-4xl mb-3 p-6 ">
+              <div className=" Raleway-Regulaar text-4xl mb-3 p-6 ">
                 {title}
               </div>
-              <a href={data.Links[index]} key={index}>
+              <a href={data.Links[index]}>
                 <Image
                   className="rounded-lg bg-opacity-100"
                   height={600}
@@ -44,11 +45,11 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
                   alt={"gif"}
                 />
               </a>
-              <div className="Raleway-Regular p-6 w-[85%]" key={index}>
+              <div className="Raleway-Regular p-6 w-[85%]">
                 {data.Description[index]}
               </div>
             </div>
-          </>
+          </Fragment>
         );
       })}
     </div>

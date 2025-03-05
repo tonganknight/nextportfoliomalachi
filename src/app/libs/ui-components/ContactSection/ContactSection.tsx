@@ -1,6 +1,7 @@
 "use client";
 import useMobileScreen from "../../helpers/useMobileScreen";
 import { cn } from "../../utils";
+import { Button } from "../Buttons";
 import { ShowContent } from "../Helpers";
 import { ContactItems } from "./ContactItems";
 import Image from "next/image";
@@ -39,6 +40,9 @@ export const ContactSection = () => {
               email={"malachialusa@gmail.com"}
             />
           </div>
+          <Button className="mt-3" isLink={true} variation="primary">
+            DOWNLOAD RESUME
+          </Button>
         </div>
       </div>
     </div>

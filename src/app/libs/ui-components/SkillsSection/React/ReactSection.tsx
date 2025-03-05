@@ -1,5 +1,4 @@
 "use client";
-import TypingText from "@/app/components/animate/text/typing-text";
 import { ReactIcon } from "@/app/components/React-Icon";
 import useMobileScreen from "@/app/libs/helpers/useMobileScreen";
 import { cn } from "@/app/libs/utils";
@@ -32,10 +31,11 @@ export const ReactSection = (props: ReactSectionProps) => {
         >
           {props.title}
         </p>
-        <TypingText waitTime={5000} delay={16} text={`${props.description}`} />
+        {props.description}
         <a
           href="https://nextjs.org/"
           className="text-md Raleway-Regular mt-[20px]"
+          target="_blank"
         >
           <span className="text-secondary-color">Learn More</span>
         </a>

@@ -19,7 +19,7 @@ export const TailWindSection = (props: TailWindSectionProps) => {
     >
       <ShowContent state={isMobile}>
         <Image
-          src="https://cdn.iconfinder.com/stored_data/2061378/128/png?token=1736271359-lhdojrHgB5lnUacPlzcpDPqJ9y%2B9QSXGVHqZ0J%2FYbm8%3D"
+          src="/Icons/tailwindIcon.png"
           width={200}
           height={200}
           alt="Tailwind CSS Logo"
@@ -39,18 +39,19 @@ export const TailWindSection = (props: TailWindSectionProps) => {
         >
           {props.title}
         </p>
-        <TypingText waitTime={5000} delay={16} text={`${props.description}`} />
+        {props.description}
         <a
           href="https://tailwindcss.com/"
           className="text-md Raleway-Regular mt-[20px]"
+          target="_blank"
         >
           <span className="text-secondary-color">Learn More</span>
         </a>
       </div>
-      <div className=" bg-background-primary-color p-[2%]">
+      <div className="p-[2%]">
         <ShowContent state={!isMobile}>
           <Image
-            src="https://cdn.iconfinder.com/stored_data/2061378/128/png?token=1736271359-lhdojrHgB5lnUacPlzcpDPqJ9y%2B9QSXGVHqZ0J%2FYbm8%3D"
+            src="/Icons/tailwindIcon.png"
             width={200}
             height={200}
             alt="Tailwind CSS Logo"

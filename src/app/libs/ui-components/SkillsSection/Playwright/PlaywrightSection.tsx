@@ -37,8 +37,9 @@ export const PlaywrightSection = (props: PlaywrightSectionProps) => {
         >
           {props.title}
         </p>
-        <TypingText waitTime={5000} delay={16} text={`${props.description}`} />
+        {props.description}
         <a
+          target="_blank"
           href="https://playwright.dev/"
           className="text-md Raleway-Regular mt-[20px]"
         >

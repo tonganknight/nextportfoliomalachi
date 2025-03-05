@@ -35,14 +35,14 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
               <div className=" Raleway-Regulaar text-4xl mb-3 p-6 ">
                 {title}
               </div>
-              <a href={data.Links[index]}>
+              <a href={data.Links[index]} target="_blank">
                 <Image
                   className="rounded-lg bg-opacity-100"
                   height={600}
                   width={500}
                   key={index}
                   src={data.Gif[index]}
-                  alt={"gif"}
+                  alt={"Image of my past work"}
                 />
               </a>
               <div className="Raleway-Regular p-6 w-[85%]">

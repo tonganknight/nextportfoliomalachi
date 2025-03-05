@@ -14,6 +14,7 @@ interface FooterSectionProps {
 
 export const FooterSection = () => {
   const isMobile = useMobileScreen();
+  if (isMobile) return null;
   return (
     <div
       className={cn(
@@ -27,30 +28,9 @@ export const FooterSection = () => {
           className="mt-[8%] bg-transparent-0"
           src="/Images/Logo Vertical.png"
           alt={""}
-          height={400}
+          height={isMobile ? 100 : 400}
           width={400}
         />
-      </div>
-      <Button className="mt-3" isLink={true} variation="primary">
-        DOWNLOAD RESUME
-      </Button>
-      <div className="flex flex-row items-center justify-center mt-[5%]">
-        <a className="mr-[5%]" href="https://github.com/tonganknight">
-          <Image
-            src="https://cdn.iconfinder.com/stored_data/2033260/128/png?token=1734197252-PXZubYcV%2BBCEt8gv99nb2dVjSluerugEgHo5QhQl6K0%3D"
-            alt={"Git Hub Logo"}
-            height={35}
-            width={30}
-          />
-        </a>
-        <a href="https://www.linkedin.com/in/malachi-alusa-a96439174/">
-          <Image
-            src="https://cdn.iconfinder.com/stored_data/2033257/128/png?token=1734196838-V3F95U87KitnZhmJFmHMUUsFdAaeQAfetzqlG4fcqfA%3D"
-            alt={"linkedIn Logo"}
-            height={35}
-            width={30}
-          />
-        </a>
       </div>
       <p className="mt-[2%]">
         Copyright 2025 Alusa Solutions All Rights Reserved

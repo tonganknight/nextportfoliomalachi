@@ -12,7 +12,7 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #05060b;
+    background-color: transparent;
     padding: 2%
 }
 .circles {

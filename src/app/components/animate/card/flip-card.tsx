@@ -65,8 +65,7 @@ export default function FlipCard({
           )}
         >
           <div className="flex min-h-full flex-col gap-2 overflow-y-auto">
-            {/* <h1 className="text-xl font-bold text-black">{subtitle}</h1> */}
-            <p className="overflow-y-auto Raleway-Regular text-based text-centermt-1 border-t border-t-gray-200 py-4 text-base font-medium leading-normal text-black">
+            <p className="overflow-y-auto Raleway-Regular text-based text-centermt-1  py-4 text-base font-medium leading-normal text-black">
               {description}
             </p>
           </div>

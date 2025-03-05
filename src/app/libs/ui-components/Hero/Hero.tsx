@@ -10,8 +10,8 @@ export const Hero = () => {
     <div
       id="HOME"
       className={cn(
-        "flex justify-center items-center h-[53vh]",
-        isMobile ? "mt-[25%]" : "mt-[20rem]"
+        "flex justify-center items-center",
+        isMobile ? "mt-[25%] h-[86vh]" : "mt-[20rem] h-[53vh]"
       )}
     >
       <div className="absolute  mt-[14rem]">

@@ -10,17 +10,12 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
   const isMobile = useMobileScreen();
 
   return (
-    <div
-      className={cn(
-        "flex flex-col justify-center items-center ",
-        isMobile ? "mt-[560%] mb-[100%]" : "mt-[140%]"
-      )}
-    >
+    <div className={"flex flex-col justify-center items-center "}>
       {data.Title.map((title, index) => {
         return (
           <Fragment key={index}>
             <BackGroundBlur
-              className="mt-[200%]"
+              className="mt-[54%] "
               singleBlob={true}
               isMobile={isMobile}
               padding={isMobile ? "p-25" : " p-96 "}
@@ -28,8 +23,8 @@ export const ExpierenceCard = (data: ExpierenceSectionData) => {
             />
             <div
               className={cn(
-                "flex flex-col items-center bg-background-primary-color  rounded-lg  z-20 bg-opacity-80",
-                isMobile ? "mb-2" : "h-[25%] w-[50%] mb-6 "
+                "flex flex-col items-center bg-background-primary-color rounded-lg z-20 bg-opacity-80",
+                isMobile ? "mb-[30%]" : "h-[25%] w-[50%] mb-6 "
               )}
             >
               <div className=" Raleway-Regulaar text-4xl mb-3 p-6 ">

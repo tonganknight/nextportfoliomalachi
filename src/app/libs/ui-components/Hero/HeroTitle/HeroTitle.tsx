@@ -38,7 +38,7 @@ export const HeroTitle = () => {
           )}
         >
           <Button className={isMobile ? "mb-[4%]" : ""} variation="primary">
-            CONTACT ME
+            <a href="#CONTACT ME">CONTACT ME</a>
           </Button>
           <Button isLink={true} variation="secondary">
             DOWNLOAD RESUME

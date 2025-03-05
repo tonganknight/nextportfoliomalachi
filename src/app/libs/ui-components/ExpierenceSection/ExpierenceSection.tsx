@@ -13,8 +13,8 @@ export const ExpierenceSection = ({
   const isMobile = useMobileScreen();
   return (
     <div className="flex flex-col text-center">
-      <ExpierenceSectionTitle title="EXPIERENCE" />
-      <div className="flex flex-col justify-center items-center h-screen mt-[7rem]">
+      <ExpierenceSectionTitle isMobile={isMobile} title="EXPIERENCE" />
+      <div className="flex flex-col justify-center items-center">
         <ExpierenceCard
           Title={data.Title}
           Description={data.Description}

@@ -16,7 +16,7 @@ export const ContactItems = (ContactItemsProps: ContactItemsProps) => {
           <p
             className={cn(
               "ml-[10px] font-semibold Raleway-Regular",
-              isMoble ? "text-xs" : "text-based"
+              isMoble ? "text-xs pt-[3%]" : "text-based"
             )}
           >
             {item.info}

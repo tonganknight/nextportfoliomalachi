@@ -2,7 +2,7 @@ import Image from "next/image";
 export const NavigationLogo = () => {
   return (
     <Image
-      className="ml-[7%]"
+      className="ml-[7%] my-[1%]"
       src="/Images/Logo Horizontal.png"
       alt={"My Custom Logo"}
       height={125}

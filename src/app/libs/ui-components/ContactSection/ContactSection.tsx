@@ -11,8 +11,8 @@ export const ContactSection = () => {
     <div
       id="CONTACT ME"
       className={cn(
-        "text-2xl flex Railway-Regular flex-col items-center bg-background-secondary-color py-[2%] mt-[210%]",
-        isMobile ? "mt-[550%] mb-[1px] " : "mt-[200%] "
+        "text-2xl flex Railway-Regular flex-col items-center bg-background-secondary-color ",
+        isMobile ? "mb-[1px] py-[5%] " : "mt-[25%] py-[2%]"
       )}
     >
       <div className={cn("flex", isMobile ? "flex-col" : "flex-row")}>

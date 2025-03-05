@@ -16,11 +16,14 @@ export const ExpierenceSection = ({
       <ExpierenceSectionTitle isMobile={isMobile} title="EXPIERENCE" />
       <div className="flex flex-col justify-center items-center">
         <ExpierenceCard
-          Title={data.Title}
-          Description={data.Description}
-          Gif={data.Gif}
-          StaticImage={data.StaticImage}
-          Links={data.Links}
+          data={{
+            Title: data.Title,
+            Description: data.Description,
+            Gif: data.Gif,
+            StaticImage: data.StaticImage,
+            Links: data.Links,
+          }}
+          isMobile={isMobile}
         />
       </div>
     </div>

@@ -1,5 +1,5 @@
 import BlurryBlob from "@/app/components/animate/background/blurry-blob";
-import { cn } from "../../utils";
+
 interface BackGroundBlurProps {
   isMobile: boolean;
   className?: string;
@@ -20,6 +20,7 @@ export const BackGroundBlur = (data: BackGroundBlurProps) => {
         margin={data.margin ? data.margin : ""}
         padding={data.padding ? data.padding : ""}
         singleBlob={data.singleBlob}
+        isMobile={data.isMobile}
       />
     </div>
   );

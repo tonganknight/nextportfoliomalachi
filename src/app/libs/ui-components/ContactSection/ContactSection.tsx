@@ -30,13 +30,9 @@ export const ContactSection = () => {
           </div>
           <div className="flex flex-row">
             <ContactItems
-              phoneIconSrc={
-                "https://cdn.iconfinder.com/stored_data/2033254/128/png?token=1734196675-hE6eiMJenAbV15VW4FgFA3kUjDXRyl6OyEPVYlm%2BWKg%3D"
-              }
+              phoneIconSrc={"/Icons/mobileIcon.png"}
               phoneNumber={"435-772-5277"}
-              emailIconSrc={
-                "https://cdn.iconfinder.com/stored_data/2033256/128/png?token=1734196773-96xEqH3xiKb3%2B2c3KvKXZyKo2rf9E2FPrwaNCbdPIKI%3D"
-              }
+              emailIconSrc={"/Icons/emailIcon.png"}
               email={"malachialusa@gmail.com"}
             />
           </div>

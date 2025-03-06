@@ -28,7 +28,7 @@ export const NavHeader = () => {
           "bg-black border-opacity-50",
           isMobile ? "" : "mr-[98px]"
         )}
-        href="/Images/ResumePlaceHolder.pdf"
+        href="/Images/Malachi Web Dev 2025.pdf"
         download="Resume Malachi Alusa PDF"
       >
         <p

@@ -28,7 +28,7 @@ export const Button = ({
       {isLink ? (
         <a
           className={`text-xs p-3  flex justify-center items-center ${stateClassName}`}
-          href="/Images/ResumePlaceHolder.pdf"
+          href="/Images/Malachi Web Dev 2025.pdf"
           download="Resume Malachi Alusa PDF"
         >
           {children}

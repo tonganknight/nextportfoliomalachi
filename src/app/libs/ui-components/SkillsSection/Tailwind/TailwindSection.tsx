@@ -1,5 +1,4 @@
 "use client";
-import TypingText from "@/app/components/animate/text/typing-text";
 import useMobileScreen from "@/app/libs/helpers/useMobileScreen";
 import { cn } from "@/app/libs/utils";
 import Image from "next/image";
@@ -19,10 +18,11 @@ export const TailWindSection = (props: TailWindSectionProps) => {
     >
       <ShowContent state={isMobile}>
         <Image
-          src="/Icons/tailwindIcon.png"
+          src="/Images/TailWind.gif"
           width={200}
           height={200}
           alt="Tailwind CSS Logo"
+          className="h-full w-full"
         />
       </ShowContent>
       <div
@@ -51,10 +51,11 @@ export const TailWindSection = (props: TailWindSectionProps) => {
       <div className="p-[2%]">
         <ShowContent state={!isMobile}>
           <Image
-            src="/Icons/tailwindIcon.png"
-            width={200}
-            height={200}
+            src="/Images/TailWind.gif"
+            width={300}
+            height={300}
             alt="Tailwind CSS Logo"
+            className="h-[110%] w-full"
           />
         </ShowContent>
       </div>

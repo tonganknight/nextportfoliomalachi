@@ -18,5 +18,6 @@ export const cardData = [
     {title: "Microsoft SQL", description: "I learned SQL during my time as a QA associate. I queried tables, and modified databases daily to test software changes.", subtitle: "Software Engineer", image: '/Icons/sqlIcon-min.png'},
     {title: "Google Pay", description: "I have expierence implementinig Google Pay. I've built integrations in professional sites using G pay as a means for checkout", image: "/Icons/gPayIcon.png", subtitle: "Software Engineer"},
     {title: "Graph QL", description: "I've built multiple projects using node.js that utilize graph QL. Its a strong tool I'm happy to jump back into.", image: "/Icons/graphQLIcon.png", subtitle: "Software Engineer"},
-{title: 'Git & CLI', description:'I am skilled with Git, and have worked with it for over 4 years. I also know command Line, and Power Shell', image: '/Icons/gitIcon.png', subtitle: 'Software Engineer'},
+    {title: 'Git & CLI', description:'I am skilled with Git, and have worked with it for over 4 years. I also know command Line, and Power Shell', image: '/Icons/gitIcon.png', subtitle: 'Software Engineer'},
+    {title: 'CSS Frameworks', description: 'I know frameworks such as Tailwind, Bootstrap, and plain CSS. I have used these frameworks to build multiple applications.', image: '/Icons/cssIcon.png', subtitle: 'Software Engineer'},
 ];

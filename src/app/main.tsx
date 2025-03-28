@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { AboutMeSection } from "./libs/ui-components/AboutMeSection/AboutMeSection";
 import { Hero } from "./libs/ui-components/Hero/Hero";
 import { SkillsSection } from "./libs/ui-components/SkillsSection/SkillsSection";

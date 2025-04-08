@@ -10,7 +10,7 @@ export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
       )}
     >
       <TitleSection />
-      <p className=" text-sm w-[70%]">
+      <p className={cn("ext-sm w-[70%]", isMobile && "text-center")}>
         I’m a Full Stack Web Developer with a passion for new technologies. Over
         the past 4 years, I’ve worked professionally as a React developer, where
         I’ve supported and built features and integrations for modern websites.

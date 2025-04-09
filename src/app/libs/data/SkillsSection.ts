@@ -5,7 +5,7 @@ export const reactDescription =
 export const reactTitle = "REACT & NEXT.JS";
 export const tailwindTitle = "TAILWIND CSS & SASS";
 export const tailWindDescription =
-" I find Tailwind to be a great tool for quickly building responsive and modern websites. I also have experience with CSS and Sass, which I use for more complex styling tasks. This also includes custom animations like the react logo above that is made from scratch";
+" I find Tailwind to be a great tool for quickly building responsive and modern websites. I also have experience with CSS, which I use for more complex styling tasks. This also includes custom animations like the react logo above that is made from scratch";
 export const playwrightTitle = "TESTING AUTOMATION";
 export const playwirghtDescription =
 " Utilizing Microsoft Playwright I have developed multiple automation testing suties for a wide range of sites. These range creating automation to test products for Secretaries of State to products for Ecommerce  websites.";

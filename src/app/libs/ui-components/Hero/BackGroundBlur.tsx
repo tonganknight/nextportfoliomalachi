@@ -6,6 +6,7 @@ interface BackGroundBlurProps {
   padding?: string;
   margin?: string;
   singleBlob?: boolean;
+  reduceBlare?: boolean;
 }
 
 export const BackGroundBlur = (data: BackGroundBlurProps) => {
@@ -21,6 +22,7 @@ export const BackGroundBlur = (data: BackGroundBlurProps) => {
         padding={data.padding ? data.padding : ""}
         singleBlob={data.singleBlob}
         isMobile={data.isMobile}
+        reduceBlare={data.reduceBlare ? data.reduceBlare : false}
       />
     </div>
   );

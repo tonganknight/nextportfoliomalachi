@@ -19,6 +19,7 @@ export const ExpierenceCard = (props: ExpierenceCardprop) => {
               isMobile={props.isMobile}
               padding={props.isMobile ? "p-25" : " p-96 "}
               margin={props.isMobile ? "mr-[125%]" : ""}
+              reduceBlare={true}
             />
             <div
               className={cn(

@@ -8,7 +8,6 @@ export const Hero = () => {
   const isMobile = useMobileScreen();
   return (
     <div
-      id="HOME"
       className={cn(
         "flex justify-center items-center",
         isMobile ? "mt-[25%] h-[86vh]" : "mt-[20rem] h-[53vh]"

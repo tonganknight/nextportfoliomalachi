@@ -8,8 +8,8 @@ export const ExpierenceSectionTitle = (props: {
     <div id="EXPIRENCE">
       <p
         className={cn(
-          "text-3xl Raleway-Regular font-semibold p-[10px]  mt-[10%]",
-          props.isMobile ? "mb-[30%]" : " mb-[13%]"
+          "text-3xl Raleway-Regular font-semibold p-[10px]",
+          props.isMobile ? "mb-[30%] mt-[10%]" : " mb-[13%] mt-[7%]"
         )}
       >
         {props.title}

@@ -12,7 +12,7 @@ export const ExpierenceSection = ({
 }) => {
   const isMobile = useMobileScreen();
   return (
-    <div className="flex flex-col text-center">
+    <div className="flex flex-col w-full text-center">
       <ExpierenceSectionTitle isMobile={isMobile} title="EXPIERENCE" />
       <div className="flex flex-col w-full justify-center items-center">
         <ExpierenceCard

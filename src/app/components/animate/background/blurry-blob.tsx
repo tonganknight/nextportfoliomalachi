@@ -9,6 +9,7 @@ interface BlobProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
   margin?: string;
   singleBlob?: boolean;
+  reduceBlare?: boolean;
 }
 
 export default function BlurryBlob({
@@ -19,13 +20,17 @@ export default function BlurryBlob({
   margin,
   singleBlob,
   isMobile,
+  reduceBlare,
 }: BlobProps) {
+  const topMesurement = reduceBlare ? "top-[2rem]" : "top-[-13rem]";
   return (
     <div className="min-w-52 items-center justify-center">
       <div className={cn("relative w-full max-w-lg", !isMobile && "mb-[-75%]")}>
         <div
           className={cn(
-            `absolute right-[-16rem] top-[-13rem] h-72 w-72 animate-pop-blob rounded-sm bg-blue-400 p-8 opacity-45 blur-3xl filter ${padding} ${margin}`,
+            `absolute right-[-16rem] ${
+              !isMobile && topMesurement
+            } h-72 w-72 animate-pop-blob rounded-sm bg-blue-400 p-8 opacity-45 blur-3xl filter ${padding} ${margin}`,
             className,
             firstBlobColor
           )}

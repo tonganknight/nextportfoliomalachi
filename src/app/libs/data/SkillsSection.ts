@@ -3,12 +3,12 @@
 export const reactDescription =
 " I have heavy experience with both React and Next.js. Over the last 4 years I have helped build and maintain multiple websites with these frameworks. I have also worked with other frameworks such as Angular, but I prefer React and Next.js for their flexibility and ease of use.";
 export const reactTitle = "REACT & NEXT.JS";
-export const tailwindTitle = "TAILWIND CSS & SASS";
+export const tailwindTitle = "TAILWIND CSS";
 export const tailWindDescription =
 " I find Tailwind to be a great tool for quickly building responsive and modern websites. I also have experience with CSS, which I use for more complex styling tasks. This also includes custom animations like the react logo above that is made from scratch";
 export const playwrightTitle = "TESTING AUTOMATION";
 export const playwirghtDescription =
-" Utilizing Microsoft Playwright I have developed multiple automation testing suties for a wide range of sites. These range creating automation to test products for Secretaries of State to products for Ecommerce  websites.";
+" Utilizing Microsoft Playwright I have developed multiple automation testing suties for a wide range of sites. These range from creating automation to test products for Secretaries of State to  testing products for Ecommerce websites.";
 export const languagesTitle = "PROFICIENCIES";
 export const SkillsTitle = "SKILLS";
 export const cardData = [

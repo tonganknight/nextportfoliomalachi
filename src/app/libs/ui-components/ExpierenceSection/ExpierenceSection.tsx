@@ -14,7 +14,7 @@ export const ExpierenceSection = ({
   return (
     <div className="flex flex-col text-center">
       <ExpierenceSectionTitle isMobile={isMobile} title="EXPIERENCE" />
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col w-full justify-center items-center">
         <ExpierenceCard
           data={{
             Title: data.Title,

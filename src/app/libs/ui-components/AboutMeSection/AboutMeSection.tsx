@@ -20,8 +20,8 @@ export const AboutMeSection = (AboutMeSectionProps: AboutMeSectionProps) => {
           "rounded-lg bg-photo-bg-Primary-color",
           isMobile ? "" : "ml-[20%]"
         )}
-        height={250}
-        width={300}
+        height={350}
+        width={350}
         src="/Images/Malachi.png"
         alt={"My picture"}
       ></Image>

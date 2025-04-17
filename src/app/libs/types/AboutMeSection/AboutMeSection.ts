@@ -3,6 +3,5 @@ export interface AboutMeSectionProps {
         photoSRC: string;
         P1: string;
         P2: string;
-        P3: string;
     }
 }

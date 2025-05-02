@@ -1,7 +1,8 @@
+"use client";
 import useMobileScreen from "../../helpers/useMobileScreen";
 import { cn } from "../../utils";
 
-export const TitleSection = () => {
+export const AboutMeTitleSection = ({ title }: { title: string }) => {
   const isMobile = useMobileScreen();
   return (
     <p
@@ -10,7 +11,7 @@ export const TitleSection = () => {
         isMobile && " items-center text-center mt-3"
       )}
     >
-      ABOUT ME
+      {title}
     </p>
   );
 };

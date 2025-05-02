@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "../../utils";
-import { TitleSection } from "./TitleSection";
+import { AboutMeTitleSection } from "./TitleSection";
 export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
   return (
     <div
@@ -9,7 +9,7 @@ export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
         isMobile ? "items-center" : "items-start"
       )}
     >
-      <TitleSection />
+      <AboutMeTitleSection title={"About Me"} />
       <p className={cn("ext-sm w-[70%]", isMobile && "text-center")}>
         I’m a Full Stack Web Developer with a passion for new technologies. Over
         the past 4 years, I’ve worked professionally as a React developer, where

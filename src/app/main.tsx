@@ -8,9 +8,10 @@ import { NavigationBar } from "./libs/ui-components/NavigationMenu/NavigationBar
 import { ContactSection } from "./libs/ui-components/ContactSection/ContactSection";
 import { ProficienciesSection } from "./libs/ui-components/SkillsSection/ProficenciesSection/ProficienciesSection";
 import { FooterSection } from "./libs/ui-components/FooterSection";
+import { ProjectsSection } from "./libs/ui-components/ProjectsSection";
 
 export const Main = () => {
-  const { NavAnchors, AboutMeData, SkillsData, ExperiencData } =
+  const { NavAnchors, AboutMeData, SkillsData, ExperiencData, ProjectsData } =
     getMappedData();
   return (
     <div id="HOME">
@@ -23,6 +24,11 @@ export const Main = () => {
         cardData={SkillsData.cardData}
       />
       <SkillsSection data={SkillsData} />
+      <ProjectsSection
+        title={ProjectsData.title}
+        id={ProjectsData.title}
+        projectCardsData={ProjectsData.projectSectionCardsData}
+      />
       <ExpierenceSection data={ExperiencData} />
       <ContactSection />
       <FooterSection />

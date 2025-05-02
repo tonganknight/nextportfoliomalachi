@@ -1,8 +1,10 @@
-import { ExpierenceSectionData, SkillsSectionData } from "../types";
+import { ExpierenceSectionData, ProjectsSectionType, SkillsSectionData } from "../types";
 import { AboutMeData } from "./AboutMeSection";
 import { NaturessunshineTitle, NaturesSunshineDescription, NatuesSunshineGif, NaturesSunshineStaticImage, WetXTitle, WetXDescription, WetXGif, WetXStaticImage, TecuityTitle, TecuityDescription, TecuityGif, TecuityStaticImage, NaturesSunshineLink, WetXLink, TecuityLink, UniversityTitle, UniversityofUtahImage, UniversityOfUtahlink, UniversityOfUtahDescription } from "./ExpirenceSection";
 import { Anchors } from "./NavBar";
+import { ProjectsSectionCardData, ProjectsSectionTitle } from "./ProjectsSection";
 import { cardData, languagesTitle, playwirghtDescription, playwrightTitle, reactDescription, reactTitle, SkillsTitle, tailWindDescription, tailwindTitle } from "./SkillsSection";
+
 
 export const MapData = () => {
 
@@ -28,6 +30,14 @@ export const MapData = () => {
         }
     }
 
+    const ProjectsSectionData = () => {
+    return <ProjectsSectionType>{
+         title: ProjectsSectionTitle.title,
+         id: ProjectsSectionTitle.id,
+        projectSectionCardsData: ProjectsSectionCardData
+    }
+}
+
     const ExperienceSectionData = () => {
         return <ExpierenceSectionData> {
             Title: [NaturessunshineTitle, WetXTitle, TecuityTitle, UniversityTitle],
@@ -39,5 +49,5 @@ export const MapData = () => {
        };
     
 
-    return {SkillSectionData, NavBarSectionData, AboutMeSectionData, ExperienceSectionData}
+    return {SkillSectionData, NavBarSectionData, AboutMeSectionData, ExperienceSectionData, ProjectsSectionData}
 };

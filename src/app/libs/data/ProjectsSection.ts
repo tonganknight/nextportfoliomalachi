@@ -2,6 +2,7 @@ import portfolioGif from '../../../../public/Images/PortfolioGIF.gif';
 import peasAndThankYouGif from '../../../../public/Images/PeasAndThankYouGIF.gif';
 import TaskMasterProGif from '../../../../public/Images/TaskMasterProGIF.gif';
 import GitItDoneGif from '../../../../public/Images/GitItDoneGIF.gif'
+import TestRideGfi from '../../../../public/Images/TestRideGIF.gif';
 
 export const ProjectsSectionTitle = {
     title: "Projects",
@@ -9,6 +10,13 @@ export const ProjectsSectionTitle = {
 }
 
 export const ProjectsSectionCardData = [
+    {projectTitle: 'Test Ride',
+     projectDescription: 'This is a WIP I am building with Next.js, Express.js and Playwright It is an AI powered Ui-testing automation platform that dynamically writes and executes UI tests with only a URL from the user. It is still in Development Demo upon request.',
+    projectLink: '',
+    projectImage: '/Images/TestRide.png',
+    projectGIF: TestRideGfi,
+    projectTags: ['Next.js', 'Express.js', 'Playwright', ' Deep AI']
+    },
     {projectTitle: 'Portfolio',
     projectDescription: 'This is my portfolio website, built with TypeScript, Next.js and Tailwind CSS. It my most recent work that showcases some of my talents and abilities. It is a responsive website that works on all devices.',
     projectLink: 'https://malachialusa-xi.vercel.app/',

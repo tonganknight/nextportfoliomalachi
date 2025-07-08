@@ -11,20 +11,25 @@ export const AboutMeSection = (AboutMeSectionProps: AboutMeSectionProps) => {
     <div
       id="ABOUT ME"
       className={cn(
-        "flex justify-center bg-background-secondary-color py-[7%]",
+        "flex justify-center items-start bg-background-secondary-color py-[7%]",
         isMobile ? "flex-col items-center" : "flex-row"
       )}
     >
-      <Image
-        className={cn(
-          "rounded-lg bg-photo-bg-Primary-color",
-          isMobile ? "" : "ml-[20%]"
-        )}
-        height={350}
-        width={350}
-        src="/Images/Malachi.png"
-        alt={"My picture"}
-      ></Image>
+      <div
+        className={cn("flex-shrink-0", isMobile ? "mb-6" : "ml-[20%] mr-8")}
+        style={{ width: isMobile ? 300 : 350, height: isMobile ? 350 : 504 }}
+      >
+        <Image
+          className={cn(
+            "rounded-lg bg-photo-bg-Primary-color w-full h-full object-cover",
+            !isMobile && "mt-[30%]"
+          )}
+          height={550}
+          width={504}
+          src="/Images/Malachi.png"
+          alt={"My picture"}
+        />
+      </div>
       <AboutMeDescription isMobile={isMobile} />
     </div>
   );

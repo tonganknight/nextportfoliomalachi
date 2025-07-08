@@ -11,17 +11,21 @@ export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
     >
       <AboutMeTitleSection title={"About Me"} />
       <p className={cn("ext-sm w-[70%]", isMobile && "text-center")}>
-        I’m a Full Stack Web Developer with a passion for new technologies. Over
-        the past 4 years, I’ve worked professionally as a React developer, where
-        I’ve supported and built features and integrations for modern websites.
-        My experience spans a wide range of front-end frameworks such as
-        Angular, Next.js. I’m always eager to learn and grow with the latest
-        tech. My approach to development revolves around collaboration and
-        communication. I focus on understanding the goals of each project to
-        create tailored solutions that align with and unite the vision of both
-        the client and the end-users. I emphasize writing clean, reusable, and
-        scalable code, ensuring that the solutions I build are long-lasting and
-        easy to update as needs evolve.
+        Hi, I’m Malachi — a driven and adaptable full stack developer with a
+        strong foundation in modern JavaScript frameworks like React, Angular,
+        and Next.js, and real-world experience in building scalable,
+        user-focused web applications. At Nature’s Sunshine, I help bring
+        digital projects to life, collaborating across teams to create seamless
+        UI experiences. My prior work at WETx and Tecuity deepened my testing
+        and QA expertise, where I wrote automated regression tests using
+        Playwright and TypeScript, ensuring high product reliability for
+        state-level software systems. What sets me apart is my unique blend of
+        software development and testing experience. I understand what makes
+        applications not only functional, but also stable, performant, and
+        user-friendly. Whether it’s squashing bugs, shipping features, or
+        optimizing the dev workflow, I bring a team-first mentality and a hunger
+        to keep learning. If you're hiring a junior-to-mid-level dev with a
+        strong work ethic and a solid foundation — let’s connect!
       </p>
     </div>
   );

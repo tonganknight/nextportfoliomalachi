@@ -11,7 +11,7 @@ export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
     >
       <AboutMeTitleSection title={"About Me"} />
       <p className={cn("ext-sm w-[70%]", isMobile && "text-center")}>
-        Hi, I’m Malachi — a driven and adaptable full stack developer with a
+        {` Hi, I’m Malachi — a driven and adaptable full stack developer with a
         strong foundation in modern JavaScript frameworks like React, Angular,
         and Next.js, and real-world experience in building scalable,
         user-focused web applications. At Nature’s Sunshine, I help bring
@@ -25,7 +25,7 @@ export const AboutMeDescription = ({ isMobile }: { isMobile: Boolean }) => {
         user-friendly. Whether it’s squashing bugs, shipping features, or
         optimizing the dev workflow, I bring a team-first mentality and a hunger
         to keep learning. If you're hiring a junior-to-mid-level dev with a
-        strong work ethic and a solid foundation — let’s connect!
+        strong work ethic and a solid foundation — let’s connect!`}
       </p>
     </div>
   );
